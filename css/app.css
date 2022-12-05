@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+
+body {
+  font-family: "Press Start 2P", sans-serif;
+  text-align: center;
+  background-color: black;
+  color: white;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+button {
+  display: none;
+  margin-top: 20px;
+}
+
+.eaten {
+  color: aqua;
+}
+/* .formLine {
+  margin: 10px;
+  padding: 10px;
+  background-color: cornflowerblue;
+} */
+.cell img {
+  width: 32px;
+  height: auto;
+}
+
+.cell .food {
+  width: 17px;
+  height: auto;
+}
